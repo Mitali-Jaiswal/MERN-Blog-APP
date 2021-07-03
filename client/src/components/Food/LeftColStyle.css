@@ -1,0 +1,91 @@
+.bollywood-text{
+    margin-top: 30px;
+}
+
+.LeftCol{
+    width: 70%;
+    align-items: left;
+}
+.card-container2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    padding: 10px 10px;
+    letter-spacing: 0.6px;
+}
+
+.img-container2{
+    width: 170px;
+    height: 140px;
+    align-items: left;
+
+}
+
+.horizontal-card2{
+    width: 65%;
+    align-items: right;  
+    margin: 0px 30px 10px 20px;
+}
+.horizontal-card-body2{
+    color: #908D8D;
+    opacity: 1;
+    font-size: 12px;
+
+}
+
+
+.LoadMore{
+    margin-left: 40px;
+    border: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    font-size: 12px;
+    background-color: white;
+}
+
+
+@media screen  and (max-width:480px) {
+    .left-col-card{
+        width: 360px;
+    }
+
+    .card-container2{
+        width: 360px;
+        height: 120px;
+        padding: 10px 10px;
+        letter-spacing: 0.6px;
+    }
+    .card-head{
+        font-size: 16px;
+    }
+    .none{
+        display: none;
+    }
+    .head-change2{
+        font-size: 16px;
+    }
+    
+    .img-container2{
+        width: 100px;
+        height: 110px;
+        align-items: left;
+    
+    }
+    
+    .horizontal-card2{
+        width: 100%;
+        align-items: right;  
+    }
+    .horizontal-card-body2{
+        font-size: 10px;
+    
+    }
+    .LoadMore{
+        margin-top: 20px;
+    }
+
+    .bollywood-text{
+        font-size: 18px;
+    }
+    
+}

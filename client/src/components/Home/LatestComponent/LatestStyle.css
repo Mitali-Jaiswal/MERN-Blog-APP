@@ -1,0 +1,26 @@
+.card-Flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.head-change-two{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+@media screen and(min-width:320px) and (max-width: 480px) {
+    .card-Flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .head-change-two{
+        font-size: 24px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: -50px;
+    }
+    
+
+    
+}

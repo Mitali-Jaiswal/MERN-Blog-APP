@@ -1,0 +1,43 @@
+.StoriesComponent{
+    margin-top: 30px;
+    
+}
+
+.Stories-flex{
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   
+}
+.ViewMore{
+    margin-left: 30px;
+    border: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    font-size: 12px;
+    background-color: white;
+    margin-bottom: 70px;
+
+}
+.ViewMore:hover{
+    border: 1px solid lightcoral;
+    color: lightcoral;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .StoriesComponent{
+        margin-top: 80px;
+    }
+    .Stories-flex{
+        flex-direction: column;
+        
+    }
+    .head-change-two{
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    
+}

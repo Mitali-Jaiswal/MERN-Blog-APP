@@ -1,0 +1,14 @@
+.app{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .app{
+        width: 96%;
+        
+        
+    }
+    
+}

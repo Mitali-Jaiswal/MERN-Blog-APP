@@ -1,0 +1,20 @@
+.flex-articles{
+    display: flex;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 480px) {
+   
+    .flex-articles{
+       flex-wrap: wrap;
+        margin-top: 25px;
+    }
+
+    .head-change-two{
+        font-size: 24px;
+        margin-left: 20px;
+       
+    }
+
+    
+}

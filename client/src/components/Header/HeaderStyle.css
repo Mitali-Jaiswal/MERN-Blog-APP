@@ -1,0 +1,45 @@
+.Header{
+ 
+    text-align: center;
+    background-color: white;
+    font-family: Montserrat Medium;
+}
+.Main-logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.navFlex{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.nav{
+    text-decoration: none;
+    color: black;
+    margin: 0 60px;
+    opacity: 1;
+    font-size: 12px;
+    background-color: white;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .Header{
+        display: flex;
+        margin-bottom: 0px;
+        
+    }
+    .Main-logo{
+        font-size: 22px;
+        margin-left: 20px;
+        margin-right: 190px;
+    }
+    .nav{
+        margin: 0px;
+    }
+    
+    
+}

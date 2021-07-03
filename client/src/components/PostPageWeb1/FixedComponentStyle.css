@@ -1,0 +1,52 @@
+.FixedComponent{
+    position: fixed;
+    width: 30%;
+    align-items: left;
+    margin-top: 150px;
+    display: none;
+    
+}
+
+.clapping-img{
+    width: 25px;
+    height: 25px;
+    margin-left: 110px;
+    
+}
+
+.text-clap{
+    font-size: 14px;
+    margin-left: 20px;
+    color: #939393;
+    font-family:  Sans;
+}
+
+
+.share{
+    margin-top: 20px;
+    margin-left: 110px;
+    
+}
+.text-share{
+    color: #939393;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    font-family:  Sans;
+}
+.share-icon{
+    color:lightgrey;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and(max-width:480px) {
+    .FixedComponent{
+        display: none;
+        
+    }
+    .share-icon{
+        display: none;
+    }
+    
+}
+

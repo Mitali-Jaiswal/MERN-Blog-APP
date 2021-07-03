@@ -1,0 +1,23 @@
+.main-Card-Container{
+    margin-top: 30px;
+    
+}
+
+.CardComponent{
+   width: 85%;
+   margin:10px auto;
+   margin-bottom: 40px;
+}
+
+.flex-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:480px) {
+    .flex-card{
+        flex-direction: column;
+
+    }
+    
+}

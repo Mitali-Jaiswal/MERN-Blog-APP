@@ -1,0 +1,36 @@
+.TopPostCardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 170px;
+    letter-spacing: 0.6px;
+    margin-bottom: -25px;
+
+}
+.topPostTitle{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.TopPost-img{
+    width: 120px;
+    height: 100px;
+    align-items: left;
+}
+.TopPost-Card-Body{
+    
+    width: 65%;
+    
+    align-items: right;
+    margin: 0px 30px 10px 20px;
+    
+  
+}
+
+.btn-top-post{
+    border:none;
+    background-color: white;
+}
+
+.btn-top-post:hover img{
+    width: 140px;
+    height: 120px;
+}

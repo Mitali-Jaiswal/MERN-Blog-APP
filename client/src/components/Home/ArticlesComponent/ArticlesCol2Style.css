@@ -1,0 +1,24 @@
+.ArticlesCol2{
+    width: 30%;
+    align-items: right;
+    margin-top: 15px;
+}
+
+.Advertistement{
+     border: 1px solid #707070;
+     height: 500px;
+     text-align: center;
+    
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .Advertistement{
+        display: none;
+    }
+    .ArticlesCol2{
+        width: 90%;
+        align-items: left;
+        margin-top: 15px;
+    }
+    
+}
